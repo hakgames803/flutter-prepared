@@ -1,0 +1,674 @@
+```html
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="ڤارۆ - پۆرتفۆلیۆی کەسی، گەشەپێدەری ئەپ و وێبسایت و حەزخوازێکی زیرەکی دەستکرد"
+    >
+
+    <title>ڤارۆ | پۆرتفۆلیۆی کەسی</title>
+
+    <!-- Kurdish friendly font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= ناوبەر ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                ڤارۆ<span>.</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#home" class="nav-link active">سەرەتا</a>
+                <a href="#about" class="nav-link">دەربارەی من</a>
+                <a href="#skills" class="nav-link">تواناکانم</a>
+                <a href="#projects" class="nav-link">پڕۆژەکانم</a>
+                <a href="#contact" class="nav-link">پەیوەندی</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="گۆڕینی ڕووناکی"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="کردنەوەی لیست"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= ناوەڕۆک ================= -->
+
+    <main>
+
+        <!-- ================= سەرەتا ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background">
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+            </div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="hero-small">
+                        <span class="status-dot"></span>
+                        بۆ پڕۆژەی نوێ ئامادەم
+                    </p>
+
+                    <h1>
+                        سڵاو، من <span>ڤارۆم</span>
+                    </h1>
+
+                    <h2>
+                        گەشەپێدەری ئەپ و وێبسایت و حەزخوازێکی زیرەکی دەستکرد
+                    </h2>
+
+                    <p class="hero-description">
+                        ئەپ، وێبسایت و ئەزموونی دیجیتاڵی نوێ دروست دەکەم
+                        بە بەکارهێنانی تەکنەلۆجیا، داهێنان و زیرەکی دەستکرد.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            پڕۆژەکانم ببینە
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            پەیوەندیم پێوە بکە
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="profile-card">
+
+                        <div class="profile-ring">
+
+                            <div class="profile-inner">
+                                <span>ڤ</span>
+                            </div>
+
+                        </div>
+
+                        <div class="profile-card-info">
+                            <h3>ڤارۆ</h3>
+                            <p>گەشەپێدەری داهێنەر</p>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <i class="fa-solid fa-code"></i>
+                        <span>کۆدی پاک</span>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>پڕۆژەی AI</span>
+                    </div>
+
+                    <div class="floating-card card-three">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <span>ئەپەکان</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                <span>بۆ خوارەوە</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+        </section>
+
+
+        <!-- ================= دەربارەی من ================= -->
+
+        <section class="section about" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">دەربارەی من</p>
+
+                    <h2>
+                        بیرۆکەکان دەگۆڕم بۆ
+                        <span>ئەزموونی دیجیتاڵی.</span>
+                    </h2>
+
+                    <p>
+                        کورتەیەک دەربارەی من و ئەو شتانەی حەزم لێیە دروستیان بکەم.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            من ڤارۆم، گەشەپێدەرێکم و حەزم لە دروستکردنی
+                            ئەپ، وێبسایت و پڕۆژە تەکنەلۆژییە بەسوودەکانە.
+                        </p>
+
+                        <p>
+                            بوارە سەرەکییەکانی حەزم گەشەپێدانی مۆبایل،
+                            گەشەپێدانی وێب، زیرەکی دەستکرد و دروستکردنی
+                            چارەسەری دیجیتاڵییە.
+                        </p>
+
+                        <p>
+                            باوەڕم وایە تەکنەلۆجیا تەنها نابێت کار بکات؛
+                            بەڵکو دەبێت سادە، جوان و خۆش بەکارهێنانیش بێت.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            با پڕۆژەیەک پێکەوە دروست بکەین
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="about-stats">
+
+                        <div class="stat-card">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <strong>١٠+</strong>
+                            <span>پڕۆژە</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <i class="fa-solid fa-code"></i>
+                            <strong>٥+</strong>
+                            <span>تەکنەلۆجیا</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <strong>∞</strong>
+                            <span>بیرۆکە</span>
+                        </div>
+
+                        <div class="stat-card">
+                            <i class="fa-solid fa-rocket"></i>
+                            <strong>٢٤/٧</strong>
+                            <span>فێربوون</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= تواناکان ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading center">
+
+                    <p class="section-label">تواناکانم</p>
+
+                    <h2>
+                        ئەو ئامرازانەی بەکاریان دەهێنم بۆ
+                        <span>دروستکردن.</span>
+                    </h2>
+
+                    <p>
+                        هەندێک لە تەکنەلۆجیا و تواناکانم.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-flutter"></i>
+                        </div>
+
+                        <h3>Flutter</h3>
+
+                        <p>
+                            دروستکردنی ئەپی مۆبایلی نوێ بۆ چەند پلاتفۆرمێک.
+                        </p>
+
+                        <div class="skill-bar">
+                            <span style="width: 85%;"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+
+                        <h3>گەشەپێدانی وێب</h3>
+
+                        <p>
+                            دروستکردنی وێبسایتی خێرا، جوان و Responsive.
+                        </p>
+
+                        <div class="skill-bar">
+                            <span style="width: 90%;"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>Firebase</h3>
+
+                        <p>
+                            بەڕێوەبردنی داتا، Authentication و خزمەتگوزارییەکانی Cloud.
+                        </p>
+
+                        <div class="skill-bar">
+                            <span style="width: 75%;"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <h3>زیرەکی دەستکرد</h3>
+
+                        <p>
+                            لێکۆڵینەوە و دروستکردنی یاریدەدەری زیرەک و ئەپی AI.
+                        </p>
+
+                        <div class="skill-bar">
+                            <span style="width: 70%;"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= پڕۆژەکان ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">کارەکانم</p>
+
+                    <h2>
+                        پڕۆژە
+                        <span>هەڵبژێردراوەکان.</span>
+                    </h2>
+
+                    <p>
+                        هەندێک لە پڕۆژەکانم کە دروستم کردوون یان لەسەریان کار دەکەم.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <article class="project-card">
+
+                        <div class="project-image project-one">
+
+                            <div class="project-icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-category">
+                                Flutter • Firebase
+                            </div>
+
+                            <h3>TaxiGo</h3>
+
+                            <p>
+                                ئەپێکی نوێی داواکاری تاکسی کە سیستەمی
+                                سوار، شۆفێر و بەڕێوەبەر لەخۆ دەگرێت.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>نەخشە</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                بینینی پڕۆژە
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image project-two">
+
+                            <div class="project-icon">
+                                <i class="fa-solid fa-robot"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-category">
+                                Python • AI
+                            </div>
+
+                            <h3>ڤارۆ AI</h3>
+
+                            <p>
+                                یاریدەدەرێکی زیرەکی کە بۆ تێگەیشتن و
+                                گفتوگۆکردنی سروشتی دروست کراوە.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>AI</span>
+                                <span>دەنگ</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                بینینی پڕۆژە
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image project-three">
+
+                            <div class="project-icon">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-category">
+                                Flutter • Firebase
+                            </div>
+
+                            <h3>بەڕێوەبردنی قوتابخانە</h3>
+
+                            <p>
+                                سیستەمێکی بەڕێوەبردنی قوتابخانە بۆ
+                                قوتابی، مامۆستا، پۆل و بەڕێوەبەر.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firestore</span>
+                                <span>Auth</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                بینینی پڕۆژە
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image project-four">
+
+                            <div class="project-icon">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-category">
+                                گەشەپێدانی وێب
+                            </div>
+
+                            <h3>پۆرتفۆلیۆی کەسی</h3>
+
+                            <p>
+                                وێبسایتێکی پاک و Responsive بۆ پیشاندانی
+                                کار و پڕۆژەکان.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                بینینی پڕۆژە
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= پەیوەندی ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+
+                        <p class="section-label">پەیوەندی</p>
+
+                        <h2>
+                            بیرۆکەیەکت هەیە؟
+                            <span>با پێکەوە دروستی بکەین.</span>
+                        </h2>
+
+                        <p>
+                            ئەگەر پڕۆژە، بیرۆکە یان هاوکارییەکت هەیە،
+                            بە ئازادی پەیوەندیم پێوە بکە.
+                        </p>
+
+                        <a href="mailto:your@email.com" class="btn btn-primary">
+                            پەیامێکم بۆ بنێرە
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-decoration">
+
+                        <div class="circle circle-one"></div>
+                        <div class="circle circle-two"></div>
+                        <div class="circle circle-three"></div>
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= پێی پەڕە ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-logo">
+                ڤارۆ<span>.</span>
+            </div>
+
+            <p>
+                © <span id="currentYear"></span> ڤارۆ. هەموو مافەکان پارێزراون.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="گەڕانەوە بۆ سەرەتا"
+    >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
